@@ -22,15 +22,15 @@ public class Alternative_String_Merge {
 
 	public static void main(String[] args) {
 		Scanner sc = null;
-		String str1 = null;
-		String str2 = null;
-		
-		//scanner object
+		String str1, str2 = null;
+		// String str2 = null;
+
+		// scanner object
 		sc = new Scanner(System.in);
 		System.out.println("Enter ur String:");
 		str1 = sc.nextLine();
 		str2 = sc.nextLine();
-		
+
 		// call method
 		String result = Alternative_String_Merge.mix(str1, str2);
 		System.out.println("Final Result:" + result);
